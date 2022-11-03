@@ -24,7 +24,7 @@
         <kotlinVersion>1.7.20</kotlinVersion>
         <exec.mainClass>no.javatec.ApplicationKt</exec.mainClass>
 
-        <frontend-src-dir>${project.basedir}/src/main/frontend</frontend-src-dir>
+        <frontend-src-dir>${project.basedir}/src/main/vite-project</frontend-src-dir>
     </properties>
 
     <repositories>
@@ -133,7 +133,7 @@
                 <version>1.12.1</version>
 
                 <configuration>
-                    <workingDirectory>src/main/frontend</workingDirectory>
+                    <workingDirectory>src/main/vite-project</workingDirectory>
                     <installDirectory>${project.build.directory}</installDirectory>
                     <nodeVersion>v19.0.0</nodeVersion>
                     <npmVersion>8.19.2</npmVersion>
@@ -155,6 +155,17 @@
                             <arguments>install</arguments>
                         </configuration>
                     </execution>
+
+                    <execution>
+                        <id>npx vitest</id>
+                        <goals>
+                            <goal>npx</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>vitest run</arguments>
+                        </configuration>
+                    </execution>
+
                     <execution>
                         <id>npm run build</id>
                         <goals>
