@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>no.javatec</groupId>
-    <artifactId>micronaut-plus-svelte</artifactId>
+    <artifactId>micronaut-plus-react</artifactId>
     <version>0.1</version>
     <packaging>${packaging}</packaging>
 
@@ -273,7 +273,7 @@
                             <annotationProcessorArgs>
                                 <annotationProcessorArg>micronaut.processing.group=no.javatec
                                 </annotationProcessorArg>
-                                <annotationProcessorArg>micronaut.processing.module=micronautPlusSvelte
+                                <annotationProcessorArg>micronaut.processing.module=micronautPlusReact
                                 </annotationProcessorArg>
                             </annotationProcessorArgs>
                         </configuration>

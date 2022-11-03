@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: micronaut-plus-svelte
+    name: micronaut-plus-react
 
   views:
     folder: static
