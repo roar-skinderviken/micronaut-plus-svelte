@@ -22,7 +22,7 @@
         <micronaut.aot.enabled>true</micronaut.aot.enabled>
         <micronaut.aot.packageName>no.javatec.aot.generated</micronaut.aot.packageName>
         <micronaut.runtime>netty</micronaut.runtime>
-        <kotlinVersion>1.8.10</kotlinVersion>
+        <kotlinVersion>1.8.21</kotlinVersion>
         <exec.mainClass>no.javatec.ApplicationKt</exec.mainClass>
 
         <frontend-src-dir>${project.basedir}/src/main/vite-project</frontend-src-dir>
