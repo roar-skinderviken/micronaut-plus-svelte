@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: maven
+    directory: "/"
+    schedule:
+      interval: monthly
+      time: "03:00"
+      timezone: Europe/Oslo
+
+  - package-ecosystem: npm
+    versioning-strategy: increase
+    directory: "/src/main/vite-project"
+    schedule:
+      interval: monthly
+      time: "03:00"
+      timezone: Europe/Oslo
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      time: "03:00"
+      timezone: Europe/Oslo
