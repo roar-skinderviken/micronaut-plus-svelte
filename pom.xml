@@ -18,7 +18,7 @@
         <jdk.version>17</jdk.version>
         <release.version>17</release.version>
         <micronaut.version>3.9.1</micronaut.version>
-        <kotestVersion>5.6.1</kotestVersion>
+        <kotestVersion>5.6.2</kotestVersion>
         <micronaut.aot.enabled>true</micronaut.aot.enabled>
         <micronaut.aot.packageName>no.javatec.aot.generated</micronaut.aot.packageName>
         <micronaut.runtime>netty</micronaut.runtime>
