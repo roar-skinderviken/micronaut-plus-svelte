@@ -1,7 +1,7 @@
 # micronaut-plus-react
-Micronaut 3.9.x, Vite, React and Vitest
+Micronaut 4.x, Vite, React and Vitest
 
 ## To run the app
-`mvn clean verify` 
+`mvn clean install` 
 then 
 `mvn exec:exec`
