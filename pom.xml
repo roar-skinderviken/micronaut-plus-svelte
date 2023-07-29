@@ -19,7 +19,6 @@
         <release.version>17</release.version>
         <exec.mainClass>no.javatec.ApplicationKt</exec.mainClass>
 
-        <micronaut.version>4.0.2</micronaut.version>
         <kotlinVersion>1.9.0</kotlinVersion>
 
         <micronaut.aot.enabled>false</micronaut.aot.enabled>
