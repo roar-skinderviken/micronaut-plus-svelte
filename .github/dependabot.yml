@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: maven
+  - package-ecosystem: gradle
     directory: "/"
     schedule:
       interval: monthly
@@ -9,7 +9,7 @@ updates:
 
   - package-ecosystem: npm
     versioning-strategy: increase
-    directory: "/src/main/vite-project"
+    directory: "/frontend"
     schedule:
       interval: monthly
       time: "03:00"
