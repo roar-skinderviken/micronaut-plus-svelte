@@ -9,11 +9,12 @@ micronaut:
     static-resources:
       default:
         enabled: true
-        mapping: /**/*
+        mapping: /*.*
         paths:
           - classpath:static
 
-netty:
-  default:
-    allocator:
-      max-order: 3
+      assets:
+        enabled: true
+        mapping: /assets/**
+        paths:
+          - classpath:static/assets

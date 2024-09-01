@@ -10,10 +10,5 @@ class ViewsController {
 
     @View("index")
     @Get
-    fun index(): HttpResponse<Any> = HttpResponse.ok(
-        mapOf(
-            "loggedIn" to true,
-            "username" to "Jon Ole"
-        )
-    )
+    fun index(): HttpResponse<Any> = HttpResponse.ok()
 }
