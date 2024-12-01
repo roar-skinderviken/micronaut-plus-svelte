@@ -1,6 +1,6 @@
 plugins {
     kotlin("jvm") version libs.versions.kotlin
-    id("com.google.devtools.ksp") version "2.0.21-1.0.26"
+    id("com.google.devtools.ksp") version "2.1.0-1.0.29"
     id("io.micronaut.application") version "4.4.3"
 }
 
