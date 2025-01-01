@@ -1,5 +1,5 @@
 [versions]
-micronautPlatform = "4.6.3"
+micronautPlatform = "4.7.3"
 kotlin = "2.0.21"
 
 [libraries]
